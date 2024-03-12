@@ -6,4 +6,4 @@
 
 
 
-<a href="https://github.com/cappAndreas/DayZ-Scripts/blob/main/C.png" target="blank"><img align="center" src="https://itscappand.medium.com/" height="100" /></a>
+<a href="https://itscappand.medium.com/" target="blank"><img align="center" src="https://github.com/cappAndreas/DayZ-Scripts/blob/main/C.png" height="100" /></a>
