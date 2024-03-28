@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<variables>
+    <var name="AnimalMaxCount" type="0" value="200"/>				        <!-- Maximal limit of spawned animals (not ambient) across all zones in map -->
+    <var name="CleanupAvoidance" type="0" value="50"/>				      <!-- Distance from player required for item deletion -->
+    <var name="CleanupLifetimeDeadAnimal" type="0" value="300"/>	  <!-- Lifetime (in seconds) for dead animals -->
+    <var name="CleanupLifetimeDeadInfected" type="0" value="330"/>	<!-- Lifetime (in seconds) for dead infected  -->
+    <var name="CleanupLifetimeDeadPlayer" type="0" value="1000"/>	  <!-- Lifetime (in seconds) for dead players -->
+    <var name="CleanupLifetimeDefault" type="0" value="5"/>			    <!-- Lifetime (in seconds) for entities with no specific economy setup, but damage >= 1.0 (ie. dead) -->
+    <var name="CleanupLifetimeLimit" type="0" value="75"/>			    <!-- Number of items that can be deleted at the same time during a standard cleanup -->
+    <var name="CleanupLifetimeRuined" type="0" value="120"/>		    <!-- Lifetime (in seconds) for ruined loot -->
+    <var name="FlagRefreshFrequency" type="0" value="432000"/>		  <!-- Time (in seconds) between each time the flag refreshes items lifetime. 432000 = 5 days -->
+    <var name="FlagRefreshMaxDuration" type="0" value="3456000"/>	  <!-- How long the flag will refresh items (time it takes to be lowered completely) 3456000 = 40 days -->
+    <var name="FoodDecay" type="0" value="1"/>						          <!-- Allow food to decay. 1 to enable, 0 to disable. (requires WorldWetTempUpdate set to 1) -->
+    <var name="IdleModeCountdown" type="0" value="60"/>				      <!-- Time (in seconds) before economy idle mode activates on an empty server  -->
+    <var name="IdleModeStartup" type="0" value="1"/>				        <!-- 0 to disable/1 to enable idle mode on server startup (will still switch on later if IdleModeCountdown is not 0) -->
+    <var name="InitialSpawn" type="0" value="100"/>					        <!-- How much loot will be spawned on server initial start (without storage). -->
+    <var name="LootDamageMax" type="1" value="0.1"/>				        <!-- Maximum applied damage to any item spawned through the CE (0.0 (0%), 1.0 (100%) -->
+    <var name="LootDamageMin" type="1" value="0.0"/>				        <!-- Minimum applied damage to any item spawned through the CE (0.0 (0%), 1.0 (100%) -->
+    <var name="LootProxyPlacement" type="0" value="1"/>				      <!-- Allow dispatch containers to receive the loot (1 to enable, 0 to disable) -->
+    <var name="LootSpawnAvoidance" type="0" value="150"/>			      <!-- Distance for how far away players must be for new loot to spawn in -->
+    <var name="RespawnAttempt" type="0" value="2"/>					        <!-- How many attempts are performed during single item respawn -->
+    <var name="RespawnLimit" type="0" value="20"/>					        <!-- How many items of one type can be spawned at once -->
+    <var name="RespawnTypes" type="0" value="12"/>					        <!-- How many different types can be respawned at once -->
+    <var name="RestartSpawn" type="0" value="0"/>					          <!-- How much loot should be respawned during restart to nomimal -->
+    <var name="SpawnInitial" type="0" value="1200"/>				        <!-- How many initial test are allowed for item spawn -->
+    <var name="TimeHopping" type="0" value="60"/>					          <!-- Penalty time for server hoppers -->
+    <var name="TimeLogin" type="0" value="5"/>						          <!-- Time (in seconds) it takes to login, countdown on joining the server -->
+    <var name="TimeLogout" type="0" value="5"/>						          <!-- Time (in seconds) it takes to logout, countdown when leaving the server -->
+    <var name="TimePenalty" type="0" value="20"/>					          <!-- Penalty time for player that is still in play session -->
+    <var name="WorldWetTempUpdate" type="0" value="1"/>				      <!-- Allow update of wetness and temperature values on all items in the world (Must be 1 for food decay to be enabled) -->
+    <var name="ZombieMaxCount" type="0" value="1700"/>				      <!-- Maximal limit of spawned zombies across all zones in map -->
+    <var name="ZoneSpawnDist" type="0" value="500"/>				        <!-- Distance to invoke infected spawn in nearby zone (dynamic infected) -->
+	
+	  <!-- type=0 (Value must be integer, number without decimal: 1, 2, 3 etc...) -->
+	  <!-- type=1 (Value must be float, number with decimal, 0.0 (0%), 1.0 (100%) )-->
+</variables>
